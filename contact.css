@@ -1,0 +1,64 @@
+body {
+  font-family: Arial;
+  background-color: white;
+}
+
+p {
+  color:rgba(0, 0, 0, 0.653);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+div {
+  display: block;
+  width: 400px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 100px;
+}
+
+input {
+  border: solid 1px rgb(200, 200, 200);
+  padding: 17px 22px 17px 22px;
+  font-size: 16px;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.first-name,
+.last-name {
+  width: 150px;
+}
+
+.email {
+  display: block;
+  width: 350px;
+}
+
+.message {
+  display: block;
+  width: 350px;
+  height: 150px;
+}
+
+.submit_btn {
+  background-color:black;
+  float: right;
+  color: white;
+  border: none;
+  width: 170px;
+  padding: 18px 0 18px 0;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.submit_btn:hover {
+  background-color: rgba(0, 0, 0, 0.61);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.20);
+}
