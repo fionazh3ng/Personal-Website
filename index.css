@@ -1,0 +1,27 @@
+body {
+  font-family: Arial;
+  background-color: #dee2e6;
+}
+
+#profile-pic {
+  display: inline-block;
+  width: 300px;
+  float: right;
+  border-radius: 25%;
+}
+
+.navBar {
+  text-align:center;
+  text-decoration: none;
+  padding: 3%;
+}
+
+.navBar a {
+  margin-right: 15px;
+}
+
+.navBar a:hover {
+  text-align: left;
+  background-color: #adb5bd;
+  padding:20px;
+}
