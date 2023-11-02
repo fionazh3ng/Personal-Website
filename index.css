@@ -1,27 +1,79 @@
+/* general style */
 body {
-  font-family: Arial;
-  background-color: #dee2e6;
+  font-family: 'Work Sans', sans-serif;
+  background-color: white;
 }
 
-#profile-pic {
-  display: inline-block;
-  width: 300px;
-  float: right;
-  border-radius: 25%;
+.main {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+}
+
+/* style for left section */
+.left {
+  background-color: lightblue;
+  width: 25%;
+  padding-left: 50px;
+}
+
+#name {
+  font-weight: 500;
+  padding-bottom: 30px;
 }
 
 .navBar {
-  text-align:center;
+  font-size: 23px;
+  font-weight: 300;
+  line-height: 2.5em;
+  color: black;
   text-decoration: none;
-  padding: 3%;
 }
 
-.navBar a {
-  margin-right: 15px;
-}
-
-.navBar a:hover {
+nav a:hover {
+  color:rgb(189, 4, 4);
+  text-decoration: underline;
   text-align: left;
-  background-color: #adb5bd;
-  padding:20px;
+}
+
+.icons {
+  transition: 0.15s;
+}
+
+.icons:hover {
+  opacity: 0.7;
+}
+
+.bottom-left {
+  display: inline-block;
+  padding-top: 250px;
+  padding-bottom: 100px;
+}
+
+/* style for right section */
+.right {
+  background-color: lightpink;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+#roles {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 35px;
+}
+
+#profile-pic {
+  border-radius: 10%;
+  width: 90%;
+  margin: auto;
+  display: block;
+}
+
+.quote {
+  font-size: 42px;
+  font-family: 'Reenie Beanie', cursive;
+  padding: 30px;
+  text-align: center;
 }
