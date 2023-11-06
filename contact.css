@@ -66,7 +66,6 @@ input {
 
 /* style for left section */
 .left {
-  background-color: lightblue;
   width: 25%;
   padding-left: 50px;
 }
@@ -106,7 +105,6 @@ nav a:hover {
 
 /* style for right section */
 .right {
-  background-color: lightpink;
   flex: 1;
   display: flex;
   flex-direction: column;
