@@ -1,6 +1,6 @@
 /* general style */
 body {
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   background-color: white;
 }
 
@@ -17,7 +17,7 @@ body {
   padding-left: 50px;
 }
 
-#name {
+.navBar h2 {
   font-weight: 500;
   padding-bottom: 30px;
 }
@@ -31,7 +31,7 @@ body {
 }
 
 nav a:hover {
-  color:rgb(189, 4, 4);
+  color: rgb(189, 4, 4);
   text-decoration: underline;
   text-align: left;
 }
@@ -56,4 +56,9 @@ nav a:hover {
   flex: 1;
   display: flex;
   flex-direction: column;
+}
+
+.icons {
+  height: 35px;
+  width: 35px;
 }

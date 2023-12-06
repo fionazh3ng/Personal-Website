@@ -1,6 +1,6 @@
 /* general style */
 body {
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   background-color: white;
 }
 
@@ -16,7 +16,7 @@ body {
   padding-left: 50px;
 }
 
-#name {
+.navBar h2 {
   font-weight: 500;
   padding-bottom: 30px;
 }
@@ -30,7 +30,7 @@ body {
 }
 
 nav a:hover {
-  color:rgb(189, 4, 4);
+  color: rgb(189, 4, 4);
   text-decoration: underline;
   text-align: left;
 }
@@ -56,22 +56,33 @@ nav a:hover {
   flex-direction: column;
 }
 
-#roles {
+.top-right h2 {
   text-align: center;
   padding-top: 50px;
   padding-bottom: 35px;
 }
 
-#profile-pic {
+.mid-right img {
   border-radius: 10%;
   width: 90%;
   margin: auto;
   display: block;
 }
 
-.quote {
+.bottom-right p {
   font-size: 42px;
-  font-family: 'Reenie Beanie', cursive;
+  font-family: "Reenie Beanie", cursive;
   padding: 30px;
   text-align: center;
+}
+
+.icons {
+  height: 35px;
+  width: 35px;
+}
+
+@media screen and (max-width: 800px) {
+  .right {
+    width: fit-content;
+  }
 }
