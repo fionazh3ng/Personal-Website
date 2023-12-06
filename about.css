@@ -1,6 +1,6 @@
 /* general style */
 body {
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Work Sans", sans-serif;
   background-color: white;
 }
 
@@ -12,7 +12,7 @@ h1 {
 p {
   font-size: 20px;
   font-weight: 300;
-  color:rgba(0, 0, 0, 0.679);
+  color: rgba(0, 0, 0, 0.679);
   width: 500px;
   display: inline-block;
 }
@@ -29,7 +29,7 @@ p {
   padding-left: 50px;
 }
 
-#name {
+.navBar h2 {
   font-weight: 500;
   padding-bottom: 30px;
 }
@@ -43,7 +43,7 @@ p {
 }
 
 nav a:hover {
-  color:rgb(189, 4, 4);
+  color: rgb(189, 4, 4);
   text-decoration: underline;
   text-align: left;
 }
@@ -87,8 +87,13 @@ nav a:hover {
   background-color: lightgrey;
 }
 
-#car-pic {
+.pic img {
   margin-top: 20px;
   width: 400px;
   padding: 30px;
+}
+
+.icons {
+  height: 35px;
+  width: 35px;
 }
